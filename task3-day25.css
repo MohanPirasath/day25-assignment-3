@@ -1,0 +1,106 @@
+
+
+body {
+    background-color: #330033;
+    background-image: linear-gradient(to right top, #2e3540, #435267, #587291, #6d93be, #81b6ec);
+    overflow-y:scroll ;
+    overflow-x:scroll ;
+font-family: '0pen Sans', sans-serif;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 100vh;
+margin: 0;
+padding: 0;
+height: 100%;
+width:  100%;
+
+}
+h1{
+    color: black;
+    margin-top: 10px;
+    margin-left: 70px;
+    text-align: center;
+  
+}
+
+.results {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.result {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    height: 400px;
+    min-width: 300px;
+    max-width: 300px;
+    width: 300px;
+    border-radius: 10px;
+}    
+.result img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    button {
+        background-color: #ffffff;
+        background-image: linear-gradient(to left top, #92c4eb, #75aad2, #5791ba, #3779a2, #06618b);
+        border: 0;
+        border-radius: 4px;
+        color: #000;
+        font-size: 18px;
+        padding: 10px;
+        margin: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 300px;
+        font-weight: bold;
+        }
+        
+
+        button:focus {
+        outline: none
+        }
+        button:hover{
+            animation: pulsa 1s ease-in-out;
+            color: #fff;
+        }
+        button:active{
+            color: royalblue;
+        }
+        img{
+            border-radius: 10px;
+            box-shadow: 
+            1px 1px 6px lightcoral,
+            3px 4px 3px rgb(243, 242, 240),
+            6px 6px 6px black;
+        }
+        @keyframes pulsa {
+            0%{
+                box-shadow:
+                0 0 25px #5ddcff,
+                0 0 25px #4e00c2;
+            }
+            
+        }
+
+ 
+
+        .FunFact_result{
+            background-color: #5ddcff
+        }
+
+        .Excuser_result{
+            background-color: #5ddcff
+
+        }
